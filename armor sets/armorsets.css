@@ -167,6 +167,7 @@ ul {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .searchecontainer {
@@ -351,8 +352,6 @@ use {
     background-color: black;
     height: 40vh;
     width: 100%;
-
-    margin-top: 20px;
 }
 
 .footitem {
