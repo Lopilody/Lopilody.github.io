@@ -165,7 +165,6 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(rgb(0rgb(0, 0, 0)0), rgb(5, rgb(0, 0, 0)), rgb(0, 0, 0), 0.5);
     height: 100%;
     width: 100%;
 }
@@ -212,6 +211,7 @@ ul {
     height: 90%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.4);
     gap: 50px;
     z-index: -1;
 }
