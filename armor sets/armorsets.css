@@ -339,6 +339,8 @@ use {
     cursor: text;
     background-color: black;
     color: white;
+    width: 20px;
+    height: 20px;
 }
 /*konec prostředku*/
 
