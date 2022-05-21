@@ -1,0 +1,181 @@
+body {
+    margin: 0%;
+    font-family: 'MedievalSharp';
+    overflow-x: hidden;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/*začátek navbaru*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    background-image: linear-gradient(#451313, #1d2127);
+}
+
+.menuicon {
+    display: none;
+    width: 40%;
+    height: 100%;
+    font-size: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    background-image: linear-gradient(#451313, #1d2127);
+    color: white;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 10%;
+    height: 100%;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    width: 60%;
+    height: 100%;
+}
+
+
+.item {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: font-size .2s;
+    float: left;
+}
+
+.itemlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    height: 100%;
+    font-size: 25px;
+    padding-left: 80px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    transition: font-size .2s;
+}
+
+.dropbtn {
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    padding: 16px;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    justify-content: flex-start;
+    width: 10%;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(#451313, #1d2127);
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: red;
+}
+
+.show {
+    display: block;
+}
+
+#masthead {
+    font-size: 35px;
+    width: 30%;
+    padding-left: 50px;
+    justify-content: flex-start;
+}
+
+.item:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.itemlogin:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+/*konec navbaru*/
+
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 97);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 59, 59);
+}
+
+/*konec scrollbaru*/

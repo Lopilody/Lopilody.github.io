@@ -1,0 +1,418 @@
+body {
+    margin: 0%;
+    font-family: 'MedievalSharp';
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-image: url(wallpapersden.com_bloodborne-game_3840x2381.jpg);
+    z-index: -100;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*začátek navbaru*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    background-image: linear-gradient(#451313, #1d2127);
+}
+
+.menuicon {
+    display: none;
+    width: 40%;
+    height: 100%;
+    font-size: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    background-image: linear-gradient(#451313, #1d2127);
+    color: white;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 10%;
+    height: 100%;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    width: 60%;
+    height: 100%;
+}
+
+
+.item {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: font-size .2s;
+    float: left;
+}
+
+.itemlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    height: 100%;
+    font-size: 25px;
+    padding-left: 80px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    transition: font-size .2s;
+}
+
+.dropbtn {
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    padding: 16px;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    justify-content: flex-start;
+    width: 10%;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(#451313, #1d2127);
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: red;
+}
+
+.show {
+    display: block;
+}
+
+#masthead {
+    font-size: 35px;
+    width: 30%;
+    padding-left: 50px;
+    justify-content: flex-start;
+}
+
+.item:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.itemlogin:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/*konec navbaru*/
+/*začátek prostředku*/
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.searchecontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    width: 70%;
+}
+
+.searche {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    height: 100%;
+    width: 28%;
+    background-color: #1d2127;
+    border-radius: 20px;
+    border: solid 5px #1d2127;
+    cursor: text;
+    margin-top: 30px;
+}
+
+.input {
+    margin-left: 5px;
+    height: 60%;
+    width: 80%;
+    font-size: 30px;
+    background-color: #1d2127;
+    color: white;
+    border: none;
+    font-family: 'MedievalSharp';
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    z-index: -1;
+}
+
+.griditem {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #560e07;
+    background-image: linear-gradient(#451313, #1d2127);
+    border: solid 5px #400303;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 450px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+
+}
+
+.picturecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    border: solid 15px black;
+    background-color: black;
+    height: 80%;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    font-size: 40px;
+    cursor: text;
+}
+
+.rightside,
+.rightsidetext {
+    background-color: black;
+    border-radius: 20px;
+    border: solid black 15px;
+    
+    width: 35%;
+    height: 90%;
+}
+
+.rightside {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.rightsidetext {
+    display: none;
+    flex-direction: column;
+}
+
+.lore,
+.location,
+use {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lore {
+    height: 35%;
+}
+
+.location {
+    height: 35%;
+}
+
+.use {
+    height: 30%;
+}
+
+.rightsideitem,
+.Information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #400303;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.rightsideitem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Information {
+    cursor: text;
+    background-color: black;
+    color: white;
+}
+/*konec prostředku*/
+
+.footcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+.footitem {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: rgb(105, 104, 104);
+}
+
+h1 {
+    color: #560e07;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.itemsocialmedia {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+}
+
+#pointer {
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 97);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 59, 59);
+}

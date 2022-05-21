@@ -1,0 +1,531 @@
+body {
+    margin: 0%;
+    font-family: 'MedievalSharp';
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstcontainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 15px;
+    background-image: linear-gradient(#451313, #1d2127);
+}
+
+.container {
+    height: 340vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigcontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.middleitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    height: 40%;
+    width: 100%;
+    filter: grayscale(55%);
+    transition: transform .4s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stableitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    height: 40%;
+    width: 100%;
+    background-position: center;
+    filter: grayscale(55%);
+    transition: transform .4s;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 10%;
+    height: 100%;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    width: 60%;
+    height: 100%;
+}
+
+.leftsideitem {
+    display: flex;
+    width: 60%;
+}
+
+.rightsideitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.infoitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #560e07;
+    border-left: solid 5px #400303;
+    border-right: solid 5px #400303;
+    color: #f0f0f1;
+    gap: 5px;
+    opacity: 0.8;
+    width: 90%;
+    height: 100%;
+}
+
+.infotitleitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    font-size: 60px;
+}
+
+.infotextitem {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60%;
+    width: 90%;
+    font-size: 32px;
+}
+
+.item {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: font-size .2s;
+    float: left;
+}
+
+.itemlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    height: 100%;
+    font-size: 25px;
+    padding-left: 80px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    font-family: 'MedievalSharp';
+    cursor: pointer;
+    transition: font-size .2s;
+}
+
+.bar {
+    height: 125vh;
+    width: 15%;
+    background-color: black;
+}
+
+.footcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100%;
+}
+
+.footitem {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: rgb(105, 104, 104);
+}
+
+#upitem {
+    background-image: url(thumb-1920-676178.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#map {
+    background-image: url(yharnamfull.jpg);
+}
+
+#lore {
+    background-image: url(Amygdala.full.3134402.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#community {
+    background-image: url(thumb-1920-588042.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#combat {
+    background-image: url(bloodborne-gamescom-04jpg-0d2983.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#masthead {
+    font-size: 35px;
+    width: 30%;
+    padding-left: 50px;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: #560e07;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.itemsocialmedia {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+.item:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.itemlogin:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.middleitem:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+.stableitem:hover {
+    filter: grayscale(0%);
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 97);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 59, 59);
+}
+/*předělávání začátek*/
+.dropbtn {
+    color: white;
+    background-image: linear-gradient(#451313, #1d2127);
+    padding: 16px;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: none;
+    justify-content: flex-start;
+    width: 10%;
+    height: 100%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(#451313, #1d2127);
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+     padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #6d2222;}
+  
+  .show {display: block;}
+/*předělávání konec*/
+@media(max-width: 1400px) {
+    button {
+        border: 0px;
+    }
+
+    .list {
+        width: 70%;
+    }
+
+    li {
+        width: 15%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .container {
+        height: 260vh;
+    }
+
+    .itemlogin {
+        justify-content: center;
+        padding-right: 100px;
+    }
+
+    .middleitem {
+        height: 20%;
+    }
+
+    .stableitem {
+        height: 20%;
+    }
+
+    .leftsideitem {
+        width: 40%;
+    }
+
+    .rightsideitem {
+        width: 50%;
+    }
+
+    .item {
+        width: 13%;
+        border: none;
+        font-size: 25px;
+    }
+
+    .footcontainer {
+        height: 20vh;
+    }
+
+    #masthead {
+        width: 15%;
+    }
+
+    #gapitem {
+        width: 10%;
+    }
+}
+
+@media(max-width: 1200px) {
+    button {
+        border: 0px;
+    }
+
+    #masthead {
+        width: 20%;
+        padding: 0px;
+    }
+
+    li {
+        width: 20%;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .dropdown{
+        display: inline-block;
+        position: relative;
+    }
+
+    button {
+        border: 0px;
+    }
+
+    .list {
+        width: 0%;
+        height: 0%;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .container {
+        height: 240vh;
+    }
+
+    .infotitleitem {
+        font-size: 50px;
+    }
+
+    .infotextitem {
+        font-size: 23px;
+    }
+
+    #gapitem {
+        width: 0%;
+    }
+
+    .infotitleitem {
+        height: 20%;
+    }
+
+    .rightitem {
+        width: 60%;
+    }
+
+    #masthead {
+        width: 30%;
+        display: flex;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        height: 180vh;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .leftsideitem {
+        width: 0%;
+        height: 0%;
+    }
+
+    .rightsideitem {
+        width: 100%;
+    }
+
+    .infoitem {
+        width: 100%;
+        height: 70%;
+    }
+
+    .infotitleitem {
+        font-size: 45px;
+    }
+
+    .infotextitem {
+        font-size: 24px;
+    }
+
+    .rightitem {
+        width: 60%;
+    }
+
+    #masthead {
+        width: 40%;
+    }
+}
+
+@media(max-width: 450px) {
+    #masthead {
+        width: 50%;
+    }
+
+    .itemlogin {
+        width: 5%;
+    }
+}
