@@ -138,6 +138,32 @@
     </div>
 
     <script>
+        let middleitemAnim;
+document.addEventListener('mouseover', function (event) {
+    if (event.target.classList.contains('img-container')) {
+        console.log('fsůdlkafjslkd')
+        middleitemAnim = event.target.animate(
+            [
+                {
+                    backgroundPositionY: "top",
+                },
+                {
+                    backgroundPositionY: "bottom",
+                },
+                {
+                    backgroundPositionY: "top",
+                },
+            ],
+            {
+                duration: 40000,
+                fill: "forwards",
+                delay: 0,
+                iterations: Infinity,
+            }
+        );
+    }
+    else if(!(event.target.classList.contains('img-container'))) middleitemAnim.pause();
+})
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
         function myFunction() {
