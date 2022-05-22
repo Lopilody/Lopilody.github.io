@@ -202,7 +202,7 @@ ul {
 }
 
 #upitem {
-    background-image: url(final\lopilody.github.io\bloodborne\thumb-1920-676178.jpg);
+    background-image: url(thumb-1920-676178.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,24 +210,24 @@ ul {
 }
 
 #map {
-    background-image: url(final\lopilody.github.io\bloodborne\yharnamfull.jpg);
+    background-image: url(yharnamfull.jpg);
 }
 
 #lore {
-    background-image: url(final\lopilody.github.io\bloodborne\Amygdala.full.3134402.png);
+    background-image: url(Amygdala.full.3134402.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 #community {
-    background-image: url(final\lopilody.github.io\bloodborne\thumb-1920-588042.jpg);
+    background-image: url(thumb-1920-588042.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #combat {
-    background-image: url(final\lopilody.github.io\bloodborne\bloodborne-gamescom-04jpg-0d2983.jpg);
+    background-image: url(bloodborne-gamescom-04jpg-0d2983.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
