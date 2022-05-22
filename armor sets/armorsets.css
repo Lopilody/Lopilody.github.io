@@ -531,7 +531,7 @@ width: 80%;
 }
 @media(max-height: 1200px){
     .navbar{
-        height: 14vh;
+        height: 10vh;
     }
 }
 @media(max-height:600px)
