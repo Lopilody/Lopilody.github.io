@@ -1,7 +1,6 @@
 let middleitemAnim;
 document.addEventListener('mouseover', function (event) {
     if (event.target.classList.contains('middleitem')) {
-        console.log('fsůdlkafjslkd')
         middleitemAnim = event.target.animate(
             [
                 {

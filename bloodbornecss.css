@@ -437,6 +437,10 @@ a:visited {
         position: relative;
     }
 
+    .itemlogin{
+        display: none;
+    }
+
     button {
         border: 0px;
     }
@@ -522,16 +526,16 @@ a:visited {
 
 @media(max-width: 450px) {
     #masthead {
-        width: 50%;
+        width: 70%;
+    }
+    .dropdown{
+        width: 30%;
     }
 
-    .itemlogin {
-        width: 5%;
-    }
 }
 
 @media(max-width:400px){
-    .itemlogin {
-        width: 2%;
+    .infotextitem {
+        font-size: 18px;
     }
 }
