@@ -543,7 +543,7 @@ a:visited {
 
 @media(max-height: 1200px){
     .navbar{
-        height: 14vh;
+        height: 10vh;
     }
     .container{
         height: 420vh;
