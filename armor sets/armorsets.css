@@ -417,3 +417,115 @@ h1 {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(59, 59, 59);
 }
+@media(max-width: 1400px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .list {
+        width: 70%;
+    }
+
+    li {
+        width: 15%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .itemlogin {
+        justify-content: center;
+        padding-right: 100px;
+    }
+
+    .item {
+        width: 13%;
+        border: none;
+        font-size: 25px;
+    }
+
+    .footcontainer {
+        height: 20vh;
+    }
+
+    #masthead {
+        width: 15%;
+    }
+
+}
+
+@media(max-width: 1200px) {
+
+    #masthead {
+        width: 20%;
+        padding: 0px;
+    }
+
+    li {
+        width: 20%;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .dropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .list{
+        display: none;
+    }
+    .itemlogin{
+        display: none;
+    }
+    .griditem{
+        flex-direction: column;
+        height: 900px;
+    }
+
+    #masthead {
+        width: 30%;
+        display: flex;
+    }
+    .picturecontainer {
+
+        height: 80%;
+        width: 95%;
+
+    }
+    .leftside{
+        width: 80%;
+    }
+    .rightside{
+width: 80%;
+    }
+}
+
+@media(max-width: 650px) {
+    
+
+    #masthead {
+        width: 40%;
+    }
+}
+
+@media(max-width: 450px) {
+    #masthead {
+        width: 70%;
+    }
+    .dropdown{
+        width: 30%;
+    }
+    .picturecontainer{
+        flex-direction: column;
+    }
+
+    .picturecontainer{
+        height: 90%;
+    }
+
+    .griditem{
+        height: 1500px;
+    }
+
+}
