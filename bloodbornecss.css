@@ -2,6 +2,7 @@ body {
     margin: 0%;
     font-family: 'MedievalSharp';
     overflow-x: hidden;
+    background-color: black;
 }
 
 a {
@@ -288,30 +289,30 @@ a:visited {
     filter: grayscale(0%);
 }
 
-/*Scrollbar*/
+
 ::-webkit-scrollbar {
     width: 20px;
 }
 
-/* width */
+
 ::-webkit-scrollbar {
     width: 12px;
     border-radius: 5px;
     background-color: black;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
     background-color: black;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: rgb(97, 97, 97);
     border-radius: 10px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(59, 59, 59);
 }
@@ -537,5 +538,36 @@ a:visited {
 @media(max-width:400px){
     .infotextitem {
         font-size: 18px;
+    }
+}
+
+@media(max-height: 1200px){
+    .navbar{
+        height: 14vh;
+    }
+    .container{
+        height: 420vh;
+    }
+}
+@media(max-height:600px)
+{
+    .navbar{
+        height: 18vh;
+    }
+}
+@media(max-height:450px){
+    .navbar{
+        height: 30vh;
+    }
+    .container{
+        height: 750vh;
+    }
+}
+@media(max-height:300px){
+    .navbar{
+        height: 40vh;
+    }
+    .container{
+        height: 900vh;
     }
 }
