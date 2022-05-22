@@ -319,11 +319,122 @@ h1 {
 }
 
 /*konec scrollbaru*/
+@media(max-height: 1200px){
+    .navbar{
+        height: 14vh;
+    }
+    .container{
+        height: 420vh;
+    }
+}
+@media(max-height:600px)
+{
+    .navbar{
+        height: 18vh;
+    }
+}
+@media(max-height:450px){
+    .navbar{
+        height: 30vh;
+    }
+    .container{
+        height: 750vh;
+    }
+}
+@media(max-height:300px){
+    .navbar{
+        height: 40vh;
+    }
+    .container{
+        height: 900vh;
+    }
+}
 @media(max-width:1600px){
     body{
         margin: 0%;
     }
     .gridcontainer{
         grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 1400px) {
+    .list {
+        width: 70%;
+    }
+
+    li {
+        width: 15%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .itemlogin {
+        justify-content: center;
+        padding-right: 100px;
+    }
+
+    .item {
+        width: 13%;
+        border: none;
+        font-size: 25px;
+    }
+
+    .footcontainer {
+        height: 20vh;
+    }
+
+    #masthead {
+        width: 15%;
+    }
+
+}
+
+@media(max-width: 1200px) {
+
+    #masthead {
+        width: 20%;
+        padding: 0px;
+    }
+
+    li {
+        width: 20%;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .dropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .list{
+        display: none;
+    }
+    .itemlogin{
+        display: none;
+    }
+    #masthead {
+        width: 30%;
+        display: flex;
+    }
+}
+
+@media(max-width: 650px) {
+    #masthead {
+        width: 40%;
+    }
+    .gridcontainer{
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media(max-width: 450px) {
+    #masthead {
+        width: 70%;
+    }
+    .dropdown{
+        width: 30%;
     }
 }
