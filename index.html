@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta link href=“https://api-ssps.cajthaml.eu/file/global/css/reset_ld9mrCCm.css” ref=“stylesheet”>
-    <link href="/bloodborne/bloodbornecss.css" rel="stylesheet" type="text/css">
+    <link href="bloodbornecss.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
@@ -21,26 +21,20 @@
     <div class="firstcontainer">
         <nav class="navbar">
             <button class="item" id="masthead"><a
-                    href="/index.html">Bloodborne</a>
+                    href="https://lopilody.github.io/">Bloodborne</a>
             </button>
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="">Bosses</a>
-                    <a href="">Armor sets</a>
-                    <a href="">Weapons</a>
-                    <a href="">Characters</a>
-                    <a href="">Items</a>
+                    <a href="https://lopilody.github.io/armor%20sets/armorsets.html">Armor sets</a>
+                    <a href="https://lopilody.github.io/weapons/weapons.html">Weapons</a>
                 </div>
             </div>
             <ul class="list">
-                <li><button class="item">Bosses</button> </li>
                 <li><button class="item"><a
-                            href="/armor sets/armorsets.html">Armor
+                            href="https://lopilody.github.io/armor%20sets/armorsets.html">Armor
                             sets</a></button></li>
-                <li><button class="item">Weapons</button></li>
-                <li><button class="item">Characters</button></li>
-                <li><button class="item">Items</button></li>
+                <li><button class="item"><a href="https://lopilody.github.io/weapons/weapons.html">Weapons</a></button></li>
             </ul>
             <button class="itemlogin">Login</button>
 
@@ -83,10 +77,7 @@
                         <div class="infoitem">
                             <div class="infotitleitem">Lore</div>
                             <div class="infotextitem">
-                                isis enim ipsum id lacus. Curabitur bibendum justo non orci. Praesent id justo in neque
-                                elementum ultrices. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui.
-                                Fusce
-                                suscipit libero eget elit. Maecenas libero. </div>
+                                Find out  </div>
                         </div>
                     </div>
                 </section>
@@ -136,53 +127,7 @@
             </div>
         </div>
     </div>
-
-    <script>
-        let middleitemAnim;
-document.addEventListener('mouseover', function (event) {
-    if (event.target.classList.contains('img-container')) {
-        console.log('fsůdlkafjslkd')
-        middleitemAnim = event.target.animate(
-            [
-                {
-                    backgroundPositionY: "top",
-                },
-                {
-                    backgroundPositionY: "bottom",
-                },
-                {
-                    backgroundPositionY: "top",
-                },
-            ],
-            {
-                duration: 40000,
-                fill: "forwards",
-                delay: 0,
-                iterations: Infinity,
-            }
-        );
-    }
-    else if(!(event.target.classList.contains('img-container'))) middleitemAnim.pause();
-})
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function (event) {
-            if (event.target.matches('.fa-solid fa-bars')) {
-                let dropdowns = document.getElementsByClassName("dropdown-content");
-                let i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    let openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-    </script>
+    <script src="bloodborne.js"></script>
 </body>
 
 </html>
