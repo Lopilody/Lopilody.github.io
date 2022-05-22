@@ -529,3 +529,24 @@ width: 80%;
     }
 
 }
+@media(max-height: 1200px){
+    .navbar{
+        height: 14vh;
+    }
+}
+@media(max-height:600px)
+{
+    .navbar{
+        height: 18vh;
+    }
+}
+@media(max-height:450px){
+    .navbar{
+        height: 30vh;
+    }
+}
+@media(max-height:300px){
+    .navbar{
+        height: 40vh;
+    }
+}
